@@ -14,4 +14,9 @@ def array_test():
     print (b)
     a.sort(key=None, reverse=True)
     print (a)
-array_test()
+
+def main():
+    array_test()
+
+if __name__ == "__main__":
+    main()
